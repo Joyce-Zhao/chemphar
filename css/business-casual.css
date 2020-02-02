@@ -260,3 +260,22 @@ p {
 .font-weight-light {
     font-weight: 100!important
 }
+
+.border-shape {
+    height: 10px;
+    min-width: 300px;
+    min-height: 10px;
+    max-height: 10px;
+}
+
+.color-email {
+    background-color: #af9968;
+}
+
+.color-call {
+    background-color: #af686c;
+}
+
+.color-visit {
+    background-color: #68a5af;
+}
