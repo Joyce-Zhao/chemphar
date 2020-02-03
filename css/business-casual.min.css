@@ -284,6 +284,20 @@ p {
     max-height: 10px;
 }
 
+.img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    /* position: relative;
+    overflow: hidden; */
+}
+
+.contact-img-email {
+    width: 89px;
+    height: 61px;
+}
+
 .border-color-email {
     background-color: #af9968;
 }
@@ -293,6 +307,11 @@ p {
     text-align: center;
 }
 
+.contact-img-call {
+    width: 61px;
+    height: 90px;
+}
+
 .border-color-call {
     background-color: #af686c;
 }
@@ -300,6 +319,11 @@ p {
 .text-call {
     color: #af686c;
     text-align: center;
+}
+
+.contact-img-visit {
+    width: 73px;
+    height: 90px;
 }
 
 .border-color-visit {
