@@ -261,21 +261,86 @@ p {
     font-weight: 100!important
 }
 
+.contact-card {
+    position: relative;
+    margin: .5rem;
+    background-color: rgba(255, 255, 255, .85)
+}
+
+.contact-card:before {
+    border-radius: .5rem;
+    content: '';
+    position: absolute;
+    top: -.5rem;
+    bottom: -.5rem;
+    left: -.5rem;
+    right: -.5rem;
+    border: .25rem solid rgba(255, 255, 255, .85)
+}
+
 .border-shape {
     height: 10px;
-    min-width: 300px;
     min-height: 10px;
     max-height: 10px;
 }
 
-.color-email {
+.img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-img-email {
+    width: 89px;
+    height: 61px;
+}
+
+.border-color-email {
     background-color: #af9968;
 }
 
-.color-call {
+.text-email {
+    color: #af9968;
+    text-align: center;
+}
+
+.contact-img-call {
+    width: 61px;
+    height: 90px;
+}
+
+.border-color-call {
     background-color: #af686c;
 }
 
-.color-visit {
+.text-call {
+    color: #af686c;
+    text-align: center;
+}
+
+.contact-img-visit {
+    width: 73px;
+    height: 90px;
+}
+
+.border-color-visit {
     background-color: #68a5af;
+}
+
+.text-visit {
+    color: #68a5af;
+    text-align: center;
+}
+
+.section-heading .font-size-adj {
+    display: block;
+    font-size: 2rem;
+    font-weight: 100
+}
+
+.img-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
